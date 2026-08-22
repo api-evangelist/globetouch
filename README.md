@@ -64,5 +64,16 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Globetouch is a company surfaced via the API Evangelist harvest backlog (source: secondary-market) and added to the network as a stub for full-pipeline profiling.
-- https://forgeglobal.com/globetouch_stock/
+Globetouch is a global mobile and IoT connectivity provider founded in 2010 and headquartered in
+San Ramon, California. It rebranded to **Airlinq** in February 2020; `globetouch.com` now
+301-redirects to `www.airlinq.com`. Its GConnect / CloudSIM heritage — SIM, soft-SIM and eSIM
+provisioning with rule-engine subscription-profile management — is carried forward in Mobilinq,
+alongside Autolinq (connected vehicles), Utilinq (utilities) and Marketlinq (private-5G / IoT
+marketplace).
+
+Airlinq markets a "comprehensive API library" for operator BSS/OSS integration, but as of
+2026-08-22 publishes no public developer portal, API reference, or machine-readable specification.
+Access runs through a contact-sales form.
+
+- https://www.airlinq.com/
+- https://www.airlinq.com/contact-us/

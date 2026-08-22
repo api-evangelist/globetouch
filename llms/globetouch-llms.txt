@@ -1,0 +1,50 @@
+# Globetouch (now Airlinq)
+
+> Global mobile and IoT connectivity provider, founded 2010, headquartered in San Ramon,
+> California. Rebranded to Airlinq in February 2020; globetouch.com 301-redirects to
+> www.airlinq.com. Sells SIM / soft-SIM / eSIM provisioning and connectivity-lifecycle
+> management to mobile network operators, MVNOs and IoT enterprises.
+
+## Status of the machine-readable surface
+
+Globetouch/Airlinq markets APIs as a product capability but publishes **no** public API
+contract. As of 2026-08-22 there is no developer portal, no API reference, no OpenAPI,
+AsyncAPI, GraphQL SDL, Postman collection, MCP server or A2A agent card reachable without
+a sales conversation. Access is via the contact form only. Do not assume an endpoint;
+none is published.
+
+## Products
+
+- [Mobilinq](https://www.airlinq.com/mobilinq/): IoT connectivity and application management
+  platform for operators — activation, suspension, diagnostics and retirement across the
+  device lifecycle. Marketed as integrating with operator BSS/OSS "through a comprehensive
+  API library" for provisioning, rating, billing and lifecycle automation.
+- [Autolinq](https://www.airlinq.com/autolinq/): connected-vehicle ecosystem platform.
+- [Utilinq](https://www.airlinq.com/utilinq/): connectivity for electric, gas and water
+  utilities; marketed as offering "a single, comprehensive API" for integration with
+  operational, billing and analytics systems.
+- [Marketlinq](https://www.airlinq.com/marketlinq/): operator-branded private-5G and IoT
+  marketplace and dashboard for discovering, testing and deploying connectivity solutions.
+- [Platform](https://www.airlinq.com/platform/): the shared platform overview.
+
+## Company
+
+- [Website](https://www.airlinq.com/)
+- [About](https://www.airlinq.com/about-us/)
+- [Contact / request access](https://www.airlinq.com/contact-us/)
+- [Blog](https://www.airlinq.com/blogs/) — [RSS](https://www.airlinq.com/feed/)
+- [FAQs](https://www.airlinq.com/faqs/)
+- [Glossary](https://www.airlinq.com/glossary/)
+- [Privacy policy](https://www.airlinq.com/privacy-policy/)
+- [Careers](https://www.airlinq.com/career/)
+- [LinkedIn](https://www.linkedin.com/company/airlinq)
+
+## API Evangelist profile
+
+- [apis.yml](https://raw.githubusercontent.com/api-evangelist/globetouch/refs/heads/main/apis.yml)
+- [Domain security probe](https://raw.githubusercontent.com/api-evangelist/globetouch/refs/heads/main/security/globetouch-domain-security.yml)
+- [.well-known probe (all paths 404)](https://raw.githubusercontent.com/api-evangelist/globetouch/refs/heads/main/well-known/globetouch-well-known.yml)
+- [Plans (none published)](https://raw.githubusercontent.com/api-evangelist/globetouch/refs/heads/main/plans/globetouch-plans-pricing.yml)
+- [Rate limits (none published)](https://raw.githubusercontent.com/api-evangelist/globetouch/refs/heads/main/rate-limits/globetouch-rate-limits.yml)
+
+<!-- generated: 2026-08-22 | method: generated | source: apis.yml + www.airlinq.com public pages -->

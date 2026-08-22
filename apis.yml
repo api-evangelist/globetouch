@@ -1,17 +1,37 @@
 aid: globetouch
 name: Globetouch
-description: 'Globetouch is a company surfaced via the API Evangelist harvest backlog (source: secondary-market)
-  and added to the network as a stub for full-pipeline profiling.'
+description: 'Globetouch is a global mobile and IoT connectivity provider founded in 2010 and
+  headquartered in San Ramon, California, which rebranded to Airlinq in February 2020 — globetouch.com
+  now 301-redirects to www.airlinq.com. Its GConnect / CloudSIM heritage (physical SIM, soft SIM and
+  eSIM provisioning with rule-engine-driven subscription-profile management for mobile operators and
+  IoT enterprises) is carried forward in Mobilinq, the company''s IoT connectivity and application
+  management platform, alongside Autolinq for the connected-vehicle ecosystem, Utilinq for electric,
+  gas and water utilities, and Marketlinq, an operator-branded private-5G and IoT marketplace and
+  dashboard. Airlinq markets a "comprehensive API library" for BSS/OSS integration and data and voice
+  plans "enabled via API", but as of August 2026 it publishes no public developer portal, API
+  reference, or machine-readable specification of any kind; the only entry point is a contact-sales
+  form.'
 url: https://raw.githubusercontent.com/api-evangelist/globetouch/refs/heads/main/apis.yml
+image: https://www.airlinq.com/wp-content/uploads/2020/09/cropped-Untitled-design-1-192x192.png
 x-type: company
 x-source: harvest:secondary-market
-x-tier: stub
-x-tier-reason: harvest
+x-tier: profiled
+x-tier-reason: enrichment-pass
+x-rebrand: Globetouch rebranded to Airlinq in February 2020; globetouch.com 301s to www.airlinq.com.
 specificationVersion: '0.20'
 created: '2026-08-22'
 modified: '2026-08-22'
 tags:
 - Company
+- IoT
+- Connectivity
+- eSIM
+- SIM Management
+- Telecommunications
+- Mobile
+- Connected Vehicles
+- Utilities
+- Roaming
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -19,5 +39,57 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/globetouch-domain-security.yml
 - type: Website
-  url: https://forgeglobal.com/globetouch_stock/
+  url: https://www.airlinq.com/
+- type: About
+  url: https://www.airlinq.com/about-us/
+- type: Blog
+  url: https://www.airlinq.com/blogs/
+- type: BlogRSS
+  url: https://www.airlinq.com/feed/
+- type: Support
+  url: https://www.airlinq.com/contact-us/
+- type: PrivacyPolicy
+  url: https://www.airlinq.com/privacy-policy/
+- type: FAQ
+  url: https://www.airlinq.com/faqs/
+- type: Glossary
+  url: https://www.airlinq.com/glossary/
+- type: LinkedIn
+  url: https://www.linkedin.com/company/airlinq
+- type: Twitter
+  url: https://twitter.com/airlinq
+- type: LLMsTxt
+  url: llms/globetouch-llms.txt
+- type: Plans
+  url: plans/globetouch-plans-pricing.yml
+- type: RateLimits
+  url: rate-limits/globetouch-rate-limits.yml
+x-enrichment:
+  date: '2026-08-22'
+  status: minimal
+  artifacts_added: 5
+  pass: local-v1
+x-coverage:
+  state: gated
+  reason: sales-gate
+  detail: >-
+    Globetouch rebranded to Airlinq in 2020 and its 17-page WordPress site markets Mobilinq
+    as integrating with operator BSS/OSS "through a comprehensive API library", but there is
+    no developer path off that claim — no docs, developer or api subdomain resolves in DNS,
+    /developers, /docs, /api and /pricing all 404, and the only route to the API is the
+    contact-sales form.
+  evidence:
+  - url: https://www.airlinq.com/mobilinq/
+    status: 200
+  - url: https://www.airlinq.com/developers/
+    status: 404
+  - url: https://www.airlinq.com/openapi.json
+    status: 404
+  - url: https://www.airlinq.com/.well-known/agent-card.json
+    status: 404
+  - url: https://www.airlinq.com/contact-us/
+    status: 200
+  checked: '2026-08-22'

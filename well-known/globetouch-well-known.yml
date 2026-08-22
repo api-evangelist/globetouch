@@ -1,0 +1,42 @@
+generated: '2026-08-22'
+method: probed
+source: https://www.airlinq.com/.well-known/
+note: >-
+  Probed every /.well-known/ discovery path on the only host this company operates
+  (www.airlinq.com — globetouch.com 301-redirects there after the February 2020 rebrand).
+  Every path returned a real HTTP 404 carrying the site's WordPress 404 page, including a
+  nonsense control path, so this host is NOT a soft-404 catch-all: the absences are genuine.
+  No WellKnown or SecurityTxt pointer is emitted, because nothing was served.
+hit_count: 0
+hosts:
+- host: https://www.airlinq.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+    file: null
+  - path: /.well-known/openid-configuration
+    status: 404
+    file: null
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+    file: null
+  - path: /.well-known/oauth-protected-resource
+    status: 404
+    file: null
+  - path: /.well-known/api-catalog
+    status: 404
+    file: null
+  - path: /.well-known/ai-plugin.json
+    status: 404
+    file: null
+  - path: /.well-known/agent-card.json
+    status: 404
+    file: null
+  - path: /.well-known/agent.json
+    status: 404
+    file: null
+soft_404_control:
+  path: /.well-known/zzz-control-probe-xyz
+  status: 404
+  bytes: 96416
+  verdict: not-a-catch-all

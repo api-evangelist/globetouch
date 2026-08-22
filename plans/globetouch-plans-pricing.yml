@@ -1,0 +1,19 @@
+generated: '2026-08-22'
+method: searched
+source: https://www.airlinq.com/
+plan_count: 0
+note: >-
+  Globetouch (now Airlinq) publishes no pricing or plans page of any kind. The 17-page
+  sitemap at https://www.airlinq.com/page-sitemap.xml contains no pricing, plans, packages
+  or billing page, and /pricing/ returns HTTP 404. Connectivity and platform commercials are
+  handled entirely through the contact-sales form at https://www.airlinq.com/contact-us/.
+  Product pages describe data and voice plans as being "enabled via API" for operators, but
+  no rate card, tier, quota or overage figure is published publicly.
+evidence:
+- url: https://www.airlinq.com/pricing/
+  status: 404
+- url: https://www.airlinq.com/page-sitemap.xml
+  status: 200
+- url: https://www.airlinq.com/contact-us/
+  status: 200
+plans: []

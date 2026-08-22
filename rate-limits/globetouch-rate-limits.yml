@@ -1,0 +1,20 @@
+generated: '2026-08-22'
+method: searched
+source: https://www.airlinq.com/
+limit_count: 0
+note: >-
+  No published rate limits. Globetouch (now Airlinq) ships no public developer portal, API
+  reference or machine-readable specification, so there is no documented quota, window,
+  burst, exhaustion status code, or RateLimit-* / Retry-After response header to record.
+  The Mobilinq page markets "a comprehensive API library" for BSS/OSS integration and the
+  Utilinq page markets "a single, comprehensive API", but neither links to a reference.
+  An honest zero, not an omission.
+evidence:
+- url: https://www.airlinq.com/mobilinq/
+  status: 200
+- url: https://www.airlinq.com/utilinq/
+  status: 200
+- url: https://www.airlinq.com/openapi.json
+  status: 404
+rate_limits: []
+headers: []
