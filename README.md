@@ -64,16 +64,94 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Globetouch is a global mobile and IoT connectivity provider founded in 2010 and headquartered in
-San Ramon, California. It rebranded to **Airlinq** in February 2020; `globetouch.com` now
-301-redirects to `www.airlinq.com`. Its GConnect / CloudSIM heritage — SIM, soft-SIM and eSIM
-provisioning with rule-engine subscription-profile management — is carried forward in Mobilinq,
-alongside Autolinq (connected vehicles), Utilinq (utilities) and Marketlinq (private-5G / IoT
-marketplace).
+Globetouch is a global mobile and IoT connectivity provider founded in 2010 and headquartered in San Ramon, California, which rebranded to Airlinq in February 2020 — globetouch.com now 301-redirects to www.airlinq.com. Its GConnect / CloudSIM heritage (physical SIM, soft SIM and eSIM provisioning with rule-engine-driven subscription-profile management for mobile operators and IoT enterprises) is carried forward in Mobilinq, the company's IoT connectivity and application management platform, alongside Autolinq for the connected-vehicle ecosystem, Utilinq for electric, gas and water utilities, and Marketlinq, an operator-branded private-5G and IoT marketplace and dashboard. Airlinq markets a "comprehensive API library" for BSS/OSS integration and data and voice plans "enabled via API", but as of August 2026 it publishes no public developer portal, API reference, or machine-readable specification of any kind; the only entry point is a contact-sales form.
 
-Airlinq markets a "comprehensive API library" for operator BSS/OSS integration, but as of
-2026-08-22 publishes no public developer portal, API reference, or machine-readable specification.
-Access runs through a contact-sales form.
+**Areas:** Company · IoT · Connectivity · eSIM · SIM Management · Telecommunications · Mobile · Connected Vehicles · Utilities · Roaming
 
-- https://www.airlinq.com/
-- https://www.airlinq.com/contact-us/
+## Globetouch on APIs.io
+
+Everything profiled for Globetouch is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/globetouch/](https://apis.io/providers/globetouch/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Globetouch Domain Security](https://apis.io/security/globetouch/globetouch-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Globetouch Plans Pricing](https://apis.io/plans/globetouch/globetouch-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Globetouch Rate Limits](https://apis.io/rate-limits/globetouch/globetouch-rate-limits/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.airlinq.com/)
+- [Support](https://www.airlinq.com/contact-us/)
+- [Blog](https://www.airlinq.com/blogs/)
+- [Privacy policy](https://www.airlinq.com/privacy-policy/)
+
+## API Evangelist rating
+
+**Kin Score 7.2** — minimal · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 55.4 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 7.1 |
+| Access clarity | 10.5 |
+
+**Agent readiness 2.5** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | documented (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 8.3** — Telecommunications
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/globetouch/](https://apis.io/providers/globetouch/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Globetouch: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/globetouch/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
